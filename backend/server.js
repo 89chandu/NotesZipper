@@ -14,7 +14,7 @@ connectDB();
 
 const app = express(); // main thing
 
-app.use(express.json()); // to accept json data
+app.use(express.json()); // to accept json data from
 
 app.use("/api/notes", noteRoutes);
 app.use("/api/users", userRoutes);
